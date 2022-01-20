@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-In the project directory, you can run:
 
-### `npm start`
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/roberbaca/MiniGames3-1">  
+    <img src="https://user-images.githubusercontent.com/83043304/140669718-0a350618-f217-4247-9d91-42d00c4c292f.png" alt="Logo" width="80" height="80">
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h3 align="center">Mini Games ! 3 in 1</h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <p align="center">
+    Short and simple games app built with React.js.
+    <br />  
+    <br />
+    <br />
+    <a href="https://minigames3-1.web.app/" target = "_blank">View Demo</a>  
+  </p>
+</div>
 
-### `npm test`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Mini Games 3 in 1 is an app built with React.js. The games available to play are: 
 
-### `npm run build`
+- Hangman
+- Memo
+- Trivia!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Features:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Power by ReactJS
+- Hooks: Router, UseState, UseEffect
+- Fetch API´s.
+- Cool & responsive desing.
+- React-router to link the different pages of the site
 
-### `npm run eject`
+## Hangman:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+It randomly generates words with fetch api and a definition for that word.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Randomly generated words are displayed in the screen, you have to find the correct word by guessing. 
+You have 5 guesses to find correct word. If you succeeded to find correct word,a success message is shown on the screeen. 
+Else, a failure message is shown with correct word.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Memo:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+It is a matching game that require the player to match similar cards. The flip-card effect was made only with CSS.
 
-## Learn More
+## Trivia!:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+A quiz app built with React.js with the following features:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- API calls to opentdb - the Open Trivia Database
+- Randomly choose 5 questions from a list of categories
+- Final score
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Here’s some screenshots which demonstrates the functionality of the website I created:
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![screen1](https://user-images.githubusercontent.com/83043304/150248021-fa00c091-90ed-4f34-b863-a00c648318c3.png)
 
-### Making a Progressive Web App
+![screen2](https://user-images.githubusercontent.com/83043304/150248033-d27d6ba0-4747-4fc7-8719-a6e53ee9fd4d.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![screen3](https://user-images.githubusercontent.com/83043304/150248038-1a366de8-995b-4429-ae59-625b5b2c4a8d.png)
 
-### Advanced Configuration
+![screen4](https://user-images.githubusercontent.com/83043304/150248046-2f4445ab-0c20-4931-bc4f-4e4c06b36372.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+### Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* HTML
+* CSS
+* JavaScript 
+* React.js
+* [Fontawesome](https://fontawesome.com/)
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Roberto Nicolas Baca - roberto.nicolas.baca@gmail.com
+
+Project Link: [https://github.com/roberbaca/MiniGames-React](https://github.com/roberbaca/MiniGames3-1)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-url]: https://github.com/github_username/repo_name/network/members
+[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[stars-url]: https://github.com/github_username/repo_name/stargazers
+[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
+[issues-url]: https://github.com/github_username/repo_name/issues
+[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/rober-baca
+[product-screenshot]: images/screenshot.png
+
+
