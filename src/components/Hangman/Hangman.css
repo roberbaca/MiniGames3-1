@@ -1,0 +1,222 @@
+.hangman { 
+    width: 50rem;   
+    background-color: #fff;
+    margin: 0.5rem 0;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);    
+}
+
+.hangman-header {
+    background:  #2EB62C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom,  #2EB62C, #83D475);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom,  #2EB62C, #83D475); 
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.hangman-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.hangman-title a {
+    font-size: 2rem;
+    margin: 5px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+  
+.hangman-title a:visited {
+    color: #fff;
+}
+  
+.hangman-title a:hover {
+    color: #1a6d19;
+    transition: 0.3s ease-in-out;
+}
+  
+.hangman-h1 {
+    margin: 5px 0;
+    font-size: 4rem;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 100;
+}
+
+.hangman-body {
+    padding: 2rem;    
+}
+
+.letter{
+    border-radius: 0.5rem;
+    background-color: darkcyan;
+    color: white;
+    border:solid .1rem black;;
+    font-size: 2rem;
+    margin: 0.2rem;
+    transition: 0.4s ease-in-out;
+    width: 3rem;
+}
+
+.letter:hover {
+    background-color: white;
+    border: solid .1rem black;
+    border-color: black;
+    color: black;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.word-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.masked-word {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.5rem;
+}
+    
+
+.masked-word p {
+    letter-spacing: 3em;    
+}
+
+
+span {
+    font-weight: bold;
+}
+
+.hint {  
+    font-size: 1.3rem;
+}
+
+
+
+.hangman-UI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;  
+    background:  #2EB62C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom,  #2EB62C, #83D475);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom,  #2EB62C, #83D475); 
+    margin: 0;
+    padding: 5px;        
+}
+
+
+.hangman-UI  a {
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: #fff;
+}
+  
+.hangman-UI  a:visited {
+    color: #fff;
+}
+  
+.hangman-UI  a:hover {
+    color: black;
+}
+
+
+.hangman-UI  i {
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+  
+  
+.hangman-UI  i:hover {
+    color: #1a6d19;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.mistakes-count{
+    font-size: 1rem;
+    font-weight: bold;   
+    color: black; 
+    margin: 0.5rem;
+    padding: 0;
+}
+
+.mistakes-count p {
+    margin: 0;
+}
+
+.hangman-mistakes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hangman-score {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.win-msg{
+    font-size: 1.5rem;
+    font-weight: bold;   
+    color: #2EB62C; 
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.lost-msg{
+    font-size: 1.5rem;
+    font-weight: bold;   
+    color: red; 
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+/* Pantallas medianas (tablets de menos de 992px) */
+@media (max-width: 992px) { 
+    .hangman { 
+        width: 40rem;
+    }
+}
+
+/* Pantallas pequeñas (móviles en landscape de menos de 768px) */
+@media (max-width: 768px) { 
+}
+
+
+/* Pantallas muy pequeñas (móviles en portrait de menos de 576px) */
+@media (max-width: 576px) {
+    .hangman { 
+        width: 24rem;
+    }
+}
+
+/* Pantallas muy muy pequeñas (móviles en portrait de menos de 375px) */
+@media (max-width: 375px) {
+    .hangman { 
+        width: 22rem;
+    }
+
+    .hangman-h1 {     
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,206 @@
+.game {
+    width: 35rem;
+    background-color: #fff;
+    /* margin: 0.5rem 0.5rem; */
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);    
+}
+
+.game-score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6a3093;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.game-score h2 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.game-header {
+    background: #6a3093;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.game-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.game-title a {
+    font-size: 2rem;
+    margin: 5px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.link:hover {
+    color: #431863;
+    transition: 0.3s ease-in-out;
+}
+  
+.game-h1 {
+    margin: 5px 0;
+    font-size: 4rem;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 100;
+}
+
+.cards-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);    
+    gap: 1rem;
+    padding: 1rem; 
+}
+
+.card {
+    background-color: transparent;
+    width: 7rem;
+    height: 7rem;       
+    perspective: 1000px;      
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-flip:hover {
+    cursor: pointer;
+}
+
+/*Este contenedor es necesario para posiciones el frente y el dorso de las cards*/
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* flip */
+.card-flip .card-inner{
+    transform: rotateY(180deg);    
+    width: 7rem;
+    height: 7rem;   
+    perspective: 1000px; 
+}
+
+.card-correct .card-inner{
+    transform: rotateY(180deg);  
+    width: 7rem;
+    height: 7rem;   
+}
+  
+/* posiciona el frente y el dorso */
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}  
+
+.card-front {
+    background-color: #9e43fb;
+    color: black;
+    border-radius: 0.5rem;
+}  
+
+.card-back {
+    background-color: dodgerblue;    
+    transform: rotateY(180deg);
+    border-radius: 0.5rem;
+}
+
+.card-logo {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.UI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;  
+    background: #6a3093;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    padding: 5px;        
+}
+
+
+.UI i {
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+  
+.UI i:hover {
+    color: #431863;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+/* Pantallas muy pequeñas (móviles en portrait de menos de 576px) */
+@media (max-width: 576px) {
+    .game {
+        width: 25rem;   
+    }
+
+    .card { 
+        width: 5rem;
+        height: 5rem;             
+    }
+    
+    .card-flip .card-inner{     
+        width: 5rem;
+        height: 5rem;       
+    }
+
+    .card-correct .card-inner{      
+        width: 5rem;
+        height: 5rem;   
+    }
+}
+
+
+/* Pantallas muy muy pequeñas (móviles en portrait de menos de 375px) */
+@media (max-width: 375px) {
+    .game {
+        width: 22rem;   
+    }
+    
+    .card { 
+        width: 4rem;
+        height: 4rem;             
+    }
+    
+    .card-flip .card-inner{     
+        width: 4rem;
+        height: 4rem;       
+    }
+
+    .card-correct .card-inner{      
+        width: 4rem;
+        height: 4rem;   
+    }
+}

@@ -1,0 +1,157 @@
+.home {
+    width: 50rem;
+    background-color: #fff;
+    margin: 0.5rem 0;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.4);
+    
+}
+
+.home-header {
+    background: #6d0a0a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ff4444, #6d0a0a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff4444, #6d0a0a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.home-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.home-title a {
+    font-size: 2rem;
+    margin: 5px;
+    color: #fff;
+}
+  
+.home-title a:visited {
+    color: #fff;
+}
+  
+.home-title a:hover {
+    color: #6d0a0a;
+}
+  
+.home-h1 {
+    margin: 5px 0;
+    font-size: 4rem;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 100;
+}
+
+.app-logo {
+    width: 7rem;
+    transition: ease-in-out 0.6s;
+}    
+
+.app-logo:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.6s;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;     
+    padding: 1rem; 
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6d0a0a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ff4444, #6d0a0a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff4444, #6d0a0a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    padding: 0.2rem;    
+}
+
+.footer p {
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* ----------------
+    Media Queries
+------------------*/
+
+/* Pantallas extra grandes (desktops de mas de 1400px) */
+@media (min-width: 1440px) {     
+}
+
+/* Pantallas extra grandes (desktops de menos de 1400px) */
+@media (max-width: 1440px) {   
+}
+
+/* Pantallas grandes (desktops de menos de 1200px) */
+@media (max-width: 1200px) { 
+}
+
+/* Pantallas medianas (tablets de menos de 992px) */
+@media (max-width: 992px) { 
+
+    .home {
+        width: 40rem;
+    }
+}
+
+/* Pantallas pequeñas (móviles en landscape de menos de 768px) */
+@media (max-width: 768px) { 
+}
+
+
+/* Pantallas muy pequeñas (móviles en portrait de menos de 576px) */
+@media (max-width: 576px) {
+    .home {
+        width: 25rem;
+    }
+
+    .home-title a {
+        font-size: 2rem;
+        margin: 5px;
+    }
+
+    .game-h1 {
+        margin: 5px 0;
+        font-size: 2rem;      
+    }
+}
+
+/* Pantallas muy muy pequeñas (móviles en portrait de menos de 375px) */
+@media (max-width: 375px) {
+    .home {
+        width: 22rem;
+    }
+
+    .home-title a {
+        font-size: 2rem;
+        margin: 5px;
+    }
+
+    .game-h1 {
+        margin: 5px 0;
+        font-size: 1.5rem;      
+    }
+
+    
+    .links-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;     
+        padding: 1rem; 
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
