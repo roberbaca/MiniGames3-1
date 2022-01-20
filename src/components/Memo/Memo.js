@@ -108,11 +108,11 @@ const Memo = () => {
         <div className='game'>            
             <div className='game-header'>               
                 <div className="game-title">
-                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className='link'>
+                    <a href="https://github.com/roberbaca" target="_blank" rel="noopener noreferrer" className='link'>
                         <i className="fab fa-github" title="GitHub"></i>
                     </a>
                     <h1 className="game-h1">Memo</h1>
-                    <a href="www.linkedin.com/in/roberto-baca" target="_blank" rel="noopener noreferrer" className='link'>
+                    <a href="https://www.linkedin.com/in/roberto-baca" target="_blank" rel="noopener noreferrer" className='link'>
                         <i className="fab fa-linkedin" title="linkedin"></i>
                     </a>
                 </div>

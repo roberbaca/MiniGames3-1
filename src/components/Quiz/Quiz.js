@@ -87,11 +87,11 @@ const Quiz = () => {
       <div className='quiz-game'>            
         <div className='quiz-header'>               
           <div className="quiz-title">
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/roberbaca" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github" title="GitHub"></i>
             </a>
             <h1 className="quiz-h1">Trivia!</h1>
-            <a href="www.linkedin.com/in/roberto-baca" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/roberto-baca" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin" title="linkedin"></i>
             </a>
           </div>
