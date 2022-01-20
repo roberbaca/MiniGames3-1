@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/roberbaca/ECommerceJS">  
+  <a href="https://github.com/roberbaca/MiniGames3-1">  
     <img src="https://user-images.githubusercontent.com/83043304/140669718-0a350618-f217-4247-9d91-42d00c4c292f.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -50,7 +50,7 @@ Else, a failure message is shown with correct word.
 
 ## Memo:
 
-It is a matching games that require the player to match similar cards.
+It is a matching game that require the player to match similar cards. The flip-card effect was made only with CSS.
 
 ## Trivia!:
 
@@ -92,7 +92,7 @@ Here’s some screenshots which demonstrates the functionality of the website I 
 
 Roberto Nicolas Baca - roberto.nicolas.baca@gmail.com
 
-Project Link: [https://github.com/roberbaca/MiniGames-React](https://github.com/roberbaca/MiniGames-React)
+Project Link: [https://github.com/roberbaca/MiniGames-React](https://github.com/roberbaca/MiniGames3-1)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
