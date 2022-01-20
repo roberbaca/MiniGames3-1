@@ -18,7 +18,7 @@
     <br />  
     <br />
     <br />
-    <a href="https://freshmarket.vercel.app/" target = "_blank">View Demo</a>  
+    <a href="https://minigames3-1.web.app/" target = "_blank">View Demo</a>  
   </p>
 </div>
 
